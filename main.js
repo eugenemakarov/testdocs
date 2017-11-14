@@ -51,15 +51,18 @@ function onScroll(event){
 
 // ################ /MENU SCROLL ################
 
-$(".search").keypress(updateSearch).blur(updateSearch);
+$(".search").keyup(updateSearch).blur(removeSearch);
 
 function updateSearch(e){
   $(".search-result-header").text(e.target.value);
   
-  
-    if (e.target.value && e.target.value.length > 0) {
-      $(".search-overlay").css("opacity", 1);
-    } else {
-      $(".search-overlay").css("opacity", 0);
-    }
+    removeSearch(e);
+}
+
+function removeSearch(e) {
+  if (e.target.value && e.target.value.length > 0) {
+    $(".search-overlay").css("opacity", 1);
+  } else {
+    $(".search-overlay").css("opacity", 0);
+  }
 }
