@@ -21,6 +21,35 @@ p {
   word-spacing: 1.2px;
 }
 
+.search-overlay {
+  position: absolute;
+  top: 103px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+  background: rgba(0,0,0,.8);
+  opacity: 0;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.search-overlay-container {
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+  background: white;
+}
+
+.search-overlay-container h3,h4,h5,p:hover{
+  color: #2196f3;
+}  
+/* .search-overlay h1, h2, h3, h4, h5, h6, p {
+  color: #fff;
+} */
+
 .page-title {
   padding-bottom: 0;
   margin: 45px 0;
@@ -44,6 +73,7 @@ h3 {
   font-size: 13px;
   text-align: right;
 }
+
 header{
   height: 70px;
   border-color: #ececed;
@@ -65,11 +95,11 @@ header span {
   padding-bottom: 5px;
 }
 
-.search-breadcrumbs .search-container {
+.search-container {
   position: relative;
 }
 
-.search-breadcrumbs .search-container i{
+.search-container i{
   position: absolute;
   top: 10px;
   right: 40px;
@@ -140,7 +170,7 @@ main menu li:hover{
 }
 
 main menu li.active > a, a.active{
-  font-weight: bold;
+  font-weight: 600;
   color: #294661;
 }
 
@@ -149,6 +179,7 @@ main menu .sub-menu {
   border-left: 2px solid rgba(41,70,97,.7);
   opacity: 0;
   display: none;
+  margin-left: 5px;
 }
 
 main menu .sub-menu li {
@@ -166,7 +197,6 @@ main menu li.active .sub-menu {
   height: 1000px;
 }
 
-
 .top-gap, header {
   position: fixed;
   z-index: 9999999;
@@ -183,3 +213,4 @@ img {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+

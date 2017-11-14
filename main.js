@@ -1,5 +1,6 @@
 
-// MENU SCROLL
+// #############  MENU SCROLL ##################
+// Source: https://jsfiddle.net/cse_tushar/Dxtyu/141/
 $(document).ready(function () {
   $(document).on("scroll", onScroll);
   
@@ -45,4 +46,20 @@ function onScroll(event){
           currLink.removeClass("active");
       }
   });
+}
+
+
+// ################ /MENU SCROLL ################
+
+$(".search").keypress(updateSearch).blur(updateSearch);
+
+function updateSearch(e){
+  $(".search-result-header").text(e.target.value);
+  
+  
+    if (e.target.value && e.target.value.length > 0) {
+      $(".search-overlay").css("opacity", 1);
+    } else {
+      $(".search-overlay").css("opacity", 0);
+    }
 }

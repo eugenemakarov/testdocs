@@ -3,13 +3,30 @@
   <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel='stylesheet' href='styles.css'>
-    <link rel='stylesheet' href='code-snippet.css'>
   </head>
   <body>
+    <div class="search-overlay">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="search-overlay-container">
+            <h1 class="search-result-header"></h1>
+            <hr>
+            <h4>Web API</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est massa...</p>
+            <hr>
+            <h4>Campaign API</h4>
+            <p>Integer quis pellentesque lorem. Morbi venenatis rhoncus tempor....</p>
+            <hr>
+            <h4>Order</h4>
+            <p>Ut nibh lectus, faucibus lobortis scelerisque eu, vestibulum eu sem. Donec rutrum vehicula urna at facilisis. Aliquam erat volutpat. ...</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="top-gap">
         <span>Log In</span>
@@ -29,6 +46,11 @@
             <span>
               <a href=""> HELP </a>
             </span>
+          </div>
+          <div class="col-md-3">
+            <div class="search-container">
+                <input type="text" class="search" placeholder="Search Docs" />
+            </div>
           </div>
         </div>
       </header>
