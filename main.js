@@ -64,7 +64,7 @@ function removeSearch(e) {
   console.log('ew2')
   if (e.target.value && e.target.value.length > 0) {
     $(".search-overlay").css("opacity", 1);
-    $(".search-overlay").css("display", block);
+    $(".search-overlay").css("display", "block");
   } else {
     $(".search-overlay").css("opacity", 0);
     $(".search-overlay").css("display", none);
