@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='code-snippet.css'>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="top-gap">
+        <span>Log In</span>
+      </div>
+      <header>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <span>
+              <a href=""> WHY EMANAGE </a>
+            </span>
+            <span>
+              <a href=""> DOCUMENTATION </a>
+            </span>
+            <span>
+              <a href=""> EXAMPLES </a>
+            </span>
+            <span>
+              <a href=""> HELP </a>
+            </span>
+          </div>
+        </div>
+      </header>
+      <main class="row">
+        <div class="col-md-6 col-md-offset-3"> <!--main content-->
+          
+          <div class="row search-breadcrumbs">              
+            <div class="col-md-3 search-container">
+              <input type="text" class="search" placeholder="Search Docs"/>
+              <i class="fa fa-search"></i>
+            </div>
+            <div class="col-md-9 breadcrumbs">
+              <span>Quickstart</span> >
+              <span>API Reference</span> >
+              <span>Web API</span> >
+              <span>Customer info</span>
+            </div>                
+          </div>
+
+          <div class="row">
+            
+            <!-- MENU -->
+            <div class="col-md-3 col1">
+                <menu type="context">
+                  <ul class="main-menu">
+                    <li>
+                      <a href="#a__about">Introduction</a>
+                      <ul class="sub-menu">
+                        <li><a href="#a__about">about websales API</a></li>
+                        <li><a href="#a__integration">integration with frontend</a></li>
+                        <li><a href="#a__guide">hook up guide</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#a__user-info">Quickstart</a>
+                      <ul class="sub-menu">
+                        <li><a href="#a__user-info">getting user info</a></li>
+                        <li><a href="#a__campaign">campaign information</a></li>
+                        <li><a href="#a__product">products and prices</a></li>
+                        <li><a href="#a__forms">forms data</a></li>
+                        <li><a href="#a__order">placing an order</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#s__campaign">Campaign</a>
+                    </li>
+                    <li>
+                      <a href="#s__customer">Customer</a>
+                    </li>
+                    <li>
+                      <a href="#s__order">Order</a>
+                    </li>
+                  </ul>
+                </menu>
+            </div>
+            <!-- /MENU -->
+
+            <!-- CONTENT -->
+            <div class="col-md-9 col2"> 
+              
+              <section>
+                  <h2 class="page-title">Introduction</h2>
+                  <article id="a__about">
+                      <h3>About</h3>
+                      <p>The eManage CRM Web sales API is built on HTTP. eManage CRM provides REST API (Application Programming Interface) that lets you integrate CRM with your front end pages.</p>
+                      <p>It has predictable resource URLs. It returns HTTP response codes to indicate errors. It also accepts and returns JSON in the HTTP body. You can use your favorite HTTP/REST library for your programming language to use the Web Sales API.    </p>
+                      <p>We’ll describe the basic work flow for setting up your new pages and integrating with the CRM. You’ll find the collection of Methods available below.</p>
+                  </article>
+
+                  <article id="a__integration">
+                      <h3>Integration</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est massa. Cras sed bibendum nibh. Maecenas ullamcorper ex sit amet tempus pharetra. Fusce lobortis vulputate elit, maximus suscipit urna ornare nec. Cras in justo nulla. In hac habitasse platea dictumst. Nunc lobortis libero in luctus pellentesque.</p>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere.</p>
+
+                      <img src="images/c1.JPG" alt="" class="img-responsive center-block">
+
+                      <p>Curabitur accumsan porttitor mauris, in elementum eros aliquet et. In nisl magna, lobortis vel sapien vitae, pulvinar vulputate nulla. Cras scelerisque ligula non mauris laoreet, et sagittis nunc bibendum. Maecenas suscipit rhoncus ante, eget euismod magna imperdiet sit amet. Sed luctus, augue non malesuada vestibulum, ligula orci fermentum massa, et vulputate dolor ipsum non neque. </p>
+                  </article>
+
+                  <article id="a__guide">
+                      <h3>Guide</h3>
+                      <p>Curabitur accumsan porttitor mauris, in elementum eros aliquet et. In nisl magna, lobortis vel sapien vitae, pulvinar vulputate nulla. Cras scelerisque ligula non mauris laoreet, et sagittis nunc bibendum. Maecenas suscipit rhoncus ante, eget euismod magna imperdiet sit amet. Sed luctus, augue non malesuada vestibulum, ligula orci fermentum massa, et vulputate dolor ipsum non neque. Curabitur non magna id mi consequat condimentum. In iaculis lacus malesuada est hendrerit pretium a sed mi. Sed posuere scelerisque mi ut pharetra. </p>
+                      <img src="images/params.jpg" alt="" class="img-responsive center-block">
+                  </article>
+              </section>
+
+              <section>
+                  <h2 class="page-title">Quickstart</h2>     
+
+                  <article id="a__user-info">
+                      <h3>User Information</h3>
+                      <p>Nunc lobortis libero in luctus pellentesque. Donec tristique ex elit, ac scelerisque lorem feugiat sit amet. Aliquam luctus dui vitae lacus vehicula, quis dignissim turpis laoreet. </p>
+                      <p>Donec sit amet ipsum eu mauris malesuada convallis a ac erat. Integer vitae ex dignissim, blandit ligula nec, pretium ex. Praesent dignissim convallis ipsum, vel faucibus eros dictum id. </p>
+
+                      <img src="images/code1.JPG" alt="" class="img-responsive center-block">
+
+                      <p>Curabitur velit elit, suscipit et velit placerat, interdum tincidunt orci. Fusce id tortor mollis, hendrerit libero consectetur, auctor sapien. </p>
+                  </article>
+
+                  <article id="a__campaign">
+                      <h3>Campaign</h3>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+
+                  <article id="a__product">
+                      <h3>Product</h3>
+                      <p>Curabitur velit elit, suscipit et velit placerat, interdum tincidunt orci. Fusce id tortor mollis, hendrerit libero consectetur, auctor sapien. Duis aliquet venenatis felis, vel pulvinar ipsum consectetur quis. Pellentesque ut accumsan magna. Proin venenatis est nec nisi maximus vestibulum. Phasellus lobortis maximus tortor, sed ultricies risus elementum in. Mauris malesuada varius turpis sit amet tristique. Vestibulum vitae porta justo, ut porta libero. In gravida nunc dui, id ultrices augue pellentesque malesuada. Nam posuere, lacus ut maximus fermentum, magna libero iaculis nunc, ac tristique ante leo non orci. In libero tortor, faucibus at massa eget, fringilla mollis leo. </p>
+
+                      <img src="images/console.jpg" alt="" class="img-responsive center-block">
+
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+
+                  <article id="a__forms">
+                      <h3>Forms</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est massa. Cras sed bibendum nibh. Maecenas ullamcorper ex sit amet tempus pharetra. Fusce lobortis vulputate elit, maximus suscipit urna ornare nec. Cras in justo nulla. In hac habitasse platea dictumst. Nunc lobortis libero in luctus pellentesque. Donec tristique ex elit, ac scelerisque lorem feugiat sit amet. Aliquam luctus dui vitae lacus vehicula, quis dignissim turpis laoreet. </p> <p>Donec sit amet ipsum eu mauris malesuada convallis a ac erat. Integer vitae ex dignissim, blandit ligula nec, pretium ex. Praesent dignissim convallis ipsum, vel faucibus eros dictum id. Ut lacus enim, egestas quis auctor at, egestas id ipsum. Proin suscipit vel massa nec feugiat. Ut eget vestibulum velit. </p>
+                      
+                  </article>
+
+                  <article id="a__order">
+                      <h3>Order</h3>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+              </section>
+
+              <section id="s__campaign">
+                  <h2 class="page-title">Campaign</h2>
+                  
+                  <article id="a__campaign-api">
+                      <h3>Campaign API</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est massa. Cras sed bibendum nibh. Maecenas ullamcorper ex sit amet tempus pharetra. Fusce lobortis vulputate elit, maximus suscipit urna ornare nec. Cras in justo nulla. In hac habitasse platea dictumst. Nunc lobortis libero in luctus pellentesque. Donec tristique ex elit, ac scelerisque lorem feugiat sit amet. Aliquam luctus dui vitae lacus vehicula, quis dignissim turpis laoreet.</p><p> Donec sit amet ipsum eu mauris malesuada convallis a ac erat. Integer vitae ex dignissim, blandit ligula nec, pretium ex. Praesent dignissim convallis ipsum, vel faucibus eros dictum id. Ut lacus enim, egestas quis auctor at, egestas id ipsum. Proin suscipit vel massa nec feugiat. Ut eget vestibulum velit. </p>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+              </section>
+
+              <section id="s__customer">
+                  <h2 class="page-title">Customer</h2>
+                  
+                  <article id="a__customer-api">
+                      <h3>Customer API</h3>
+                      <p>Curabitur velit elit, suscipit et velit placerat, interdum tincidunt orci. Fusce id tortor mollis, hendrerit libero consectetur, auctor sapien. Duis aliquet venenatis felis, vel pulvinar ipsum consectetur quis. Pellentesque ut accumsan magna. Proin venenatis est nec nisi maximus vestibulum. Phasellus lobortis maximus tortor, sed ultricies risus elementum in. Mauris malesuada varius turpis sit amet tristique. Vestibulum vitae porta justo, ut porta libero. In gravida nunc dui, id ultrices augue pellentesque malesuada. Nam posuere, lacus ut maximus fermentum, magna libero iaculis nunc, ac tristique ante leo non orci. In libero tortor, faucibus at massa eget, fringilla mollis leo.</p>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+              </section>
+
+              <section id="s__order">
+                  <h2 class="page-title">Order</h2>
+                  
+                  <article id="a__order-api">
+                      <h3>Order API</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est massa. Cras sed bibendum nibh. Maecenas ullamcorper ex sit amet tempus pharetra. Fusce lobortis vulputate elit, maximus suscipit urna ornare nec. Cras in justo nulla. In hac habitasse platea dictumst. Nunc lobortis libero in luctus pellentesque. Donec tristique ex elit, ac scelerisque lorem feugiat sit amet. Aliquam luctus dui vitae lacus vehicula, quis dignissim turpis laoreet. Donec sit amet ipsum eu mauris malesuada convallis a ac erat. Integer vitae ex dignissim, blandit ligula nec, pretium ex. Praesent dignissim convallis ipsum, vel faucibus eros dictum id. Ut lacus enim, egestas quis auctor at, egestas id ipsum. Proin suscipit vel massa nec feugiat. Ut eget vestibulum velit. </p>
+                      <p>Proin ornare ac libero et pellentesque. Fusce aliquet auctor metus sed eleifend. Donec neque tellus, viverra a vehicula in, tincidunt ac massa. Cras pharetra blandit consequat. Suspendisse cursus suscipit quam, quis eleifend mauris blandit a. Maecenas dictum purus in metus feugiat posuere. Pellentesque mattis enim nulla, vitae sagittis nulla ultricies ut. Nullam sollicitudin enim ac nibh feugiat, eu sagittis nisl eleifend. Pellentesque sollicitudin diam nec tempus cursus.</p>
+                  </article>
+              </section>
+
+            </div>
+            <!-- CONTENT -->
+
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
