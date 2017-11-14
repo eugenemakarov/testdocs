@@ -21,6 +21,19 @@ p {
   word-spacing: 1.2px;
 }
 
+table {
+  border-spacing: 0 1em;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 70% !important;
+  margin-top: 40px;
+}
+
+table td:last-child, table th:last-child {
+  text-align: center;
+}
+
 .search-overlay {
   position: absolute;
   top: 103px;
@@ -44,7 +57,7 @@ p {
   background: white;
 }
 
-.search-overlay-container h3,h4,h5,p:hover{
+.search-overlay-container h3, .search-overlay-container h4, .search-overlay-container h5,.search-overlay-container p:hover{
   color: #2196f3;
 }  
 /* .search-overlay h1, h2, h3, h4, h5, h6, p {
@@ -215,3 +228,6 @@ img {
   margin-bottom: 100px;
 }
 
+article {
+  margin-top: 100px
+}
