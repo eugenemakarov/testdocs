@@ -30,6 +30,7 @@ p {
   z-index: 99999;
   background: rgba(0,0,0,.8);
   opacity: 0;
+  display: none;
 
   text-align: center;
   padding: 20px;
