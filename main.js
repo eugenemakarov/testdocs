@@ -67,6 +67,6 @@ function removeSearch(e) {
     $(".search-overlay").css("display", "block");
   } else {
     $(".search-overlay").css("opacity", 0);
-    $(".search-overlay").css("display", none);
+    $(".search-overlay").css("display", "none");
   }
 }
